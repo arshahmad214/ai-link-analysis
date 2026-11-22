@@ -13,6 +13,17 @@ POST http://localhost:4000/link-analysis
 { "url": "https://example.com" }
 ```
 
+### 🔗 Live demo
+
+| | |
+|---|---|
+| Live demo | https://ai-link-analysis-sigma.vercel.app |
+| API endpoint | `POST https://ai-link-analysis-sigma.vercel.app/link-analysis` |
+| API documentation (Swagger) | https://ai-link-analysis-sigma.vercel.app/docs |
+| Health check | https://ai-link-analysis-sigma.vercel.app/health |
+
+Try it: open the docs link → **POST /link-analysis** → *Try it out* → `{"url": "https://www.python.org"}` → *Execute*.
+
 Supports **Google Gemini, OpenAI and Anthropic** with native structured JSON output, an automatic fallback provider, SSRF protection, caching and per-request cost reporting. The LLM research and the final model recommendation are in [section 7](#7-llm-platform--model-research).
 
 ---
@@ -733,9 +744,9 @@ python scripts/benchmark_llms.py https://www.python.org https://www.shopify.com 
 
 | Requirement | URL |
 |---|---|
-| Live demo | `https://<your-project>.vercel.app` |
-| API endpoint | `https://<your-project>.vercel.app/link-analysis` |
-| API documentation | `https://<your-project>.vercel.app/docs` |
+| Live demo | https://ai-link-analysis-sigma.vercel.app |
+| API endpoint | `https://ai-link-analysis-sigma.vercel.app/link-analysis` |
+| API documentation | https://ai-link-analysis-sigma.vercel.app/docs |
 
 On serverless hosting the in-memory cache lives per instance, so a cache hit is likely but not guaranteed. A shared cache (Redis) would fix this in production. Leave `ANALYSIS_API_KEY` empty if reviewers should be able to test from `/docs` without a key.
 
@@ -752,6 +763,10 @@ docker run -p 4000:4000 --env-file .env ai-link-analysis
 **Swagger: real analysis of https://www.python.org**
 
 ![Swagger response](docs/screenshots/swagger_python_org.png)
+
+**Live demo on Vercel: the same request, HTTP 200**
+
+![Live demo](docs/screenshots/live_demo.png)
 
 **SSRF protection: cloud-metadata address blocked (HTTP 400)**
 
