@@ -1,0 +1,390 @@
+{
+  "success": true,
+  "website": "https://www.python.org/",
+  "final_url": "https://www.python.org/",
+  "brand": {
+    "name": "Python.org",
+    "category": "Open Source Programming Language",
+    "summary": "Python.org is the official home of the Python programming language, providing downloads, documentation, community resources, and support for the language's development and ecosystem."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "Python.org acts as the central hub for the Python community, providing authoritative documentation, software releases, and organizational support through the Python Software Foundation.",
+      "main_category": "Programming Languages & Developer Tools",
+      "products_and_services": [
+        "Python Programming Language",
+        "Official Documentation",
+        "PyPI (Python Package Index)",
+        "Job Board",
+        "Community Support & Events"
+      ],
+      "brand_profile": {
+        "main_service": "Programming language distribution and community facilitation.",
+        "target_market": "Developers, software engineers, data scientists, researchers, and students worldwide.",
+        "key_strength": "Ubiquity in modern software development, particularly in AI, machine learning, and data science.",
+        "opportunity": "Better integration of interactive learning tools and platform-specific onboarding experiences for non-technical users."
+      },
+      "competitors": [
+        {
+          "name": "Node.js",
+          "website": "https://nodejs.org",
+          "source": "ai_suggestion",
+          "source_url": null,
+          "main_service": "JavaScript runtime environment",
+          "target_market": "Web developers and full-stack engineers",
+          "key_strength": "High-performance asynchronous I/O and widespread web development adoption.",
+          "strengths": [
+            "Strong web ecosystem",
+            "Single-language development"
+          ],
+          "weaknesses_or_gaps": [
+            "Less suitable for heavy data science compared to Python"
+          ]
+        },
+        {
+          "name": "Java",
+          "website": "https://www.java.com",
+          "source": "ai_suggestion",
+          "source_url": null,
+          "main_service": "Object-oriented programming language",
+          "target_market": "Enterprise and large-scale application developers",
+          "key_strength": "Cross-platform portability and strong static typing.",
+          "strengths": [
+            "Enterprise reliability",
+            "Mature ecosystem"
+          ],
+          "weaknesses_or_gaps": [
+            "More verbose code compared to Python"
+          ]
+        },
+        {
+          "name": "R",
+          "website": "https://www.r-project.org",
+          "source": "ai_suggestion",
+          "source_url": null,
+          "main_service": "Statistical computing language",
+          "target_market": "Statisticians and data analysts",
+          "key_strength": "Specialized statistical packages and data visualization.",
+          "strengths": [
+            "Academic pedigree",
+            "Advanced statistical analysis"
+          ],
+          "weaknesses_or_gaps": [
+            "Limited general-purpose software development capabilities"
+          ]
+        }
+      ],
+      "competitive_advantages": [
+        "Extremely low barrier to entry for beginners",
+        "Dominant presence in the AI and Machine Learning sectors",
+        "Extensive third-party library support via PyPI",
+        "Vibrant and massive global community support"
+      ],
+      "competitor_gaps": [
+        "Integration of real-time interactive development in the browser",
+        "More intuitive entry points for specialized domains like automation",
+        "Native mobile development support"
+      ],
+      "opportunities": [
+        "Expand interactive browser-based coding tutorials",
+        "Develop specialized learning paths based on career goals (e.g., Data Engineer vs. Web Developer)",
+        "Enhance visual guides for setting up complex development environments"
+      ],
+      "comparison_table": [
+        {
+          "attribute": "Brand Name",
+          "your_brand": "Python.org",
+          "competitors": {
+            "Node.js": "Node.js",
+            "Java": "Java",
+            "R": "R"
+          }
+        },
+        {
+          "attribute": "Main Service",
+          "your_brand": "Programming language distribution and community facilitation.",
+          "competitors": {
+            "Node.js": "JavaScript runtime environment",
+            "Java": "Object-oriented programming language",
+            "R": "Statistical computing language"
+          }
+        },
+        {
+          "attribute": "Target Market",
+          "your_brand": "Developers, software engineers, data scientists, researchers, and students worldwide.",
+          "competitors": {
+            "Node.js": "Web developers and full-stack engineers",
+            "Java": "Enterprise and large-scale application developers",
+            "R": "Statisticians and data analysts"
+          }
+        },
+        {
+          "attribute": "Key Strength",
+          "your_brand": "Ubiquity in modern software development, particularly in AI, machine learning, and data science.",
+          "competitors": {
+            "Node.js": "High-performance asynchronous I/O and widespread web development adoption.",
+            "Java": "Cross-platform portability and strong static typing.",
+            "R": "Specialized statistical packages and data visualization."
+          }
+        },
+        {
+          "attribute": "Opportunity / Gap",
+          "your_brand": "Better integration of interactive learning tools and platform-specific onboarding experiences for non-technical users.",
+          "competitors": {
+            "Node.js": "Less suitable for heavy data science compared to Python",
+            "Java": "More verbose code compared to Python",
+            "R": "Limited general-purpose software development capabilities"
+          }
+        }
+      ],
+      "disclaimer": "Competitors are AI-generated suggestions based on the website content and the model's general knowledge (no web search was used). Verify them before making decisions."
+    },
+    "target_search_queries": [
+      {
+        "query": "learn python programming for beginners",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Service Search",
+        "business_relevance": "Directly links to the Getting Started section.",
+        "target_audience": "Beginner developers"
+      },
+      {
+        "query": "best python libraries for machine learning",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "B2B Search",
+        "business_relevance": "Drives traffic to the applications and ecosystem documentation.",
+        "target_audience": "Professional data scientists"
+      },
+      {
+        "query": "how to install python 3",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Service Search",
+        "business_relevance": "Direct path to download traffic.",
+        "target_audience": "New users"
+      },
+      {
+        "query": "python developer job board",
+        "platforms": [
+          "LinkedIn",
+          "X"
+        ],
+        "intent": "Business Discovery",
+        "business_relevance": "Promotes the community job board.",
+        "target_audience": "Job seekers"
+      },
+      {
+        "query": "python programming tips for data analysis",
+        "platforms": [
+          "Facebook",
+          "Instagram"
+        ],
+        "intent": "Inspiration",
+        "business_relevance": "Engages the community via informative content.",
+        "target_audience": "Academic and industry professionals"
+      }
+    ],
+    "search_volume_note": "Search volumes are not included: no keyword-volume data source is connected, and volumes are never estimated.",
+    "seo_improvements": {
+      "primary_keyword": "Python programming language",
+      "secondary_keywords": [
+        "learn Python",
+        "download Python",
+        "Python documentation",
+        "Python coding tutorial"
+      ],
+      "long_tail_keywords": [
+        "how to start learning Python",
+        "Python for data science beginners",
+        "official Python documentation"
+      ],
+      "business_keywords": [
+        "Python Software Foundation",
+        "PyPI",
+        "open source programming"
+      ],
+      "recommended_title": "Python Programming Language: The Official Home | Python.org",
+      "title_structure": "Primary Keyword: Descriptive Tag | Brand",
+      "meta_description": "Learn the Python programming language with official documentation, guides, and tutorials. Download Python and join the global community of developers.",
+      "meta_description_keywords": [
+        "Python",
+        "programming language",
+        "documentation",
+        "download",
+        "community"
+      ],
+      "supporting_content": [
+        {
+          "type": "faq",
+          "title": "Frequently Asked Questions about Python",
+          "purpose": "Address common setup and syntax questions for SEO traffic.",
+          "target_keyword": "Python FAQ"
+        },
+        {
+          "type": "blog_topic",
+          "title": "Why Python is the Best Language for AI",
+          "purpose": "Attract high-intent search traffic interested in machine learning.",
+          "target_keyword": "Python AI development"
+        },
+        {
+          "type": "service_landing_page",
+          "title": "Python for Data Science Guide",
+          "purpose": "Provide a hub for data science-specific resources.",
+          "target_keyword": "learn Python for data science"
+        },
+        {
+          "type": "business_article",
+          "title": "The Impact of the Python Software Foundation",
+          "purpose": "Build brand authority and awareness.",
+          "target_keyword": "Python Software Foundation mission"
+        }
+      ],
+      "current_title": "Welcome to Python.org",
+      "current_title_length": 21,
+      "current_meta_description": "The official home of the Python Programming Language",
+      "current_meta_description_length": 52,
+      "recommended_title_length": 59,
+      "meta_description_length": 150,
+      "notes": [
+        "Current title is only 21 characters; it can carry more keywords.",
+        "Current meta description is only 52 characters; aim for 140-160.",
+        "The page has 5 H1 headings; one clear H1 is recommended."
+      ]
+    },
+    "top_services": [
+      {
+        "service_name": "Python Language Distribution",
+        "description": "Source code and installers for Python versions.",
+        "target_industry": "All software development sectors",
+        "target_customer": "Developers",
+        "main_benefit": "Standardized and reliable base for development",
+        "source": "website_content",
+        "evidence": "Python source code and installers are available for download"
+      },
+      {
+        "service_name": "Official Documentation",
+        "description": "Comprehensive guides and standard library references.",
+        "target_industry": "Education and professional development",
+        "target_customer": "Students and engineers",
+        "main_benefit": "Authoritative learning and troubleshooting resources",
+        "source": "website_content",
+        "evidence": "Documentation for Python's standard library, along with tutorials and guides"
+      },
+      {
+        "service_name": "PyPI (Python Package Index)",
+        "description": "Central repository for third-party software modules.",
+        "target_industry": "Software development",
+        "target_customer": "System architects",
+        "main_benefit": "Endless possibilities through community modules",
+        "source": "website_content",
+        "evidence": "The Python Package Index (PyPI) hosts thousands of third-party modules"
+      },
+      {
+        "service_name": "Job Board",
+        "description": "Community-run portal for career opportunities.",
+        "target_industry": "Tech recruitment",
+        "target_customer": "Employers and job seekers",
+        "main_benefit": "Connects developers with relevant career opportunities",
+        "source": "website_content",
+        "evidence": "Our relaunched community-run job board is the place to go"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Software Developers",
+        "Data Scientists",
+        "Academic Researchers"
+      ],
+      "secondary_audience": [
+        "Students",
+        "System Administrators",
+        "Non-technical Hobbyists"
+      ],
+      "industries": [
+        "Information Technology",
+        "AI & Machine Learning",
+        "Education",
+        "Scientific Research"
+      ],
+      "business_types": [
+        "Open Source Projects",
+        "Corporate IT Departments",
+        "Educational Institutions"
+      ],
+      "customer_profiles": [
+        "The Beginner Learner",
+        "The Professional Architect",
+        "The Data Professional"
+      ],
+      "geographic_focus": null,
+      "customer_needs": [
+        "Clean syntax",
+        "Easy learning curve",
+        "Integration with other systems",
+        "Rich library support"
+      ],
+      "customer_challenges": [
+        "Setting up environments",
+        "Mastering libraries",
+        "Finding relevant documentation"
+      ],
+      "customer_interests": [
+        "Artificial Intelligence",
+        "Data Analysis",
+        "Open Source Contribution",
+        "Web Development"
+      ],
+      "recommended_segments": [
+        {
+          "segment": "Beginner Programmers",
+          "business_type": "Education",
+          "requirement": "Easy-to-follow introductory tutorials",
+          "recommended_channels": [
+            "Google",
+            "Facebook"
+          ]
+        },
+        {
+          "segment": "Professional Developers",
+          "business_type": "Corporate/Freelance",
+          "requirement": "Stable documentation and library indices",
+          "recommended_channels": [
+            "LinkedIn",
+            "X"
+          ]
+        },
+        {
+          "segment": "Data Scientists",
+          "business_type": "Research/AI",
+          "requirement": "Advanced integration with libraries like PyTorch/TensorFlow",
+          "recommended_channels": [
+            "LinkedIn",
+            "Google"
+          ]
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "input_tokens": 2352,
+    "output_tokens": 2450,
+    "estimated_cost_usd": 0.004263,
+    "llm_latency_ms": 9168,
+    "total_latency_ms": 10345,
+    "cached": false,
+    "fallback_used": false,
+    "pages_analyzed": [
+      "https://www.python.org/",
+      "https://www.python.org/about/"
+    ],
+    "content_chars_sent": 8250,
+    "competitor_research": "llm_only",
+    "warnings": []
+  }
+}

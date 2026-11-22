@@ -1,0 +1,47 @@
+### Open with the VS Code "REST Client" extension and click "Send Request".
+@base = http://localhost:4000
+
+### Health (shows provider/model and whether the key is set)
+GET {{base}}/health
+
+### Analyze a website
+POST {{base}}/link-analysis
+Content-Type: application/json
+
+{ "url": "https://www.python.org" }
+
+### Same URL again -> served from cache (meta.cached = true, no LLM cost)
+POST {{base}}/link-analysis
+Content-Type: application/json
+
+{ "url": "https://www.python.org" }
+
+### Force a fresh analysis
+POST {{base}}/link-analysis
+Content-Type: application/json
+
+{ "url": "https://www.python.org", "refresh": true }
+
+### Scheme is optional
+POST {{base}}/link-analysis
+Content-Type: application/json
+
+{ "url": "fastapi.tiangolo.com" }
+
+### Invalid URL -> 422
+POST {{base}}/link-analysis
+Content-Type: application/json
+
+{ "url": "ftp://example.com" }
+
+### SSRF attempt (cloud metadata) -> 400
+POST {{base}}/link-analysis
+Content-Type: application/json
+
+{ "url": "http://169.254.169.254/latest/meta-data/" }
+
+### Domain that does not exist -> 422
+POST {{base}}/link-analysis
+Content-Type: application/json
+
+{ "url": "https://this-domain-does-not-exist-12345.com" }

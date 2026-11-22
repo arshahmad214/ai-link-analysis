@@ -1,0 +1,7 @@
+line-length = 125
+target-version = "py310"
+
+[lint]
+select = ["E", "F", "W", "B", "I", "UP"]
+# B008: FastAPI's Depends() in defaults is the documented pattern.
+ignore = ["B008", "UP007", "UP045"]
